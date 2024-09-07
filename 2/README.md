@@ -1,0 +1,3 @@
+# PPE-detection-using-YOLO
+
+### This project introduces a PPE detection system utilizing the YOLO (You Only Look Once) algorithm for swift and accurate identification of Personal Protective Equipment in real-time. By harnessing YOLO's efficiency and speed, the model identifies various safety gear elements such as helmets, vests, gloves, and goggles. The approach involves dataset creation, model fine-tuning, and evaluation in dynamic workplace scenarios. This advanced system not only enhances occupational safety by automating PPE detection but also holds promise for widespread adoption in industries, mitigating risks, and fostering a secure work environment.
