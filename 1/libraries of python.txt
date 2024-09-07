@@ -1,3 +1,7 @@
-To install all libraries in one click:
-
-pip install cvzone mediapipe streamlit streamlit-lottie simplejson cv2
+cvzone
+mediapipe
+streamlit
+streamlit-lottie
+simplejson
+opencv-python
+opencv-python-headless
