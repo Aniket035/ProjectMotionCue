@@ -1316,3 +1316,231 @@ input {
 @media only screen and (max-width: 768px) {
     /* CSS rules for screens smaller than 768px (typically mobile devices) */
 }
+
+/* Mobile View (Max-width: 480px) */
+@media (max-width: 480px) {
+    /* General Styles for Mobile */
+    html {
+        font-size: 50%;
+    }
+
+    /* About Section */
+    .about-us {
+        background-image: url(favicon/about-back.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .aboutus .aboutus-left,
+    .aboutus .aboutus-right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .aboutus-right {
+        padding: 2%;
+    }
+
+    .aboutus-right img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 10px;
+    }
+
+    /* Contact Section */
+    .contact {
+        background: linear-gradient(to top, #a4a8a8 40%, rgb(221, 220, 220) 60%);
+        height: auto; /* Adjust height for mobile */
+        padding: 20px;
+    }
+
+    .contact-content h2 {
+        font-size: 2rem;
+    }
+
+    .contact-content .mail,
+    .contact-content .links {
+        font-size: 1rem;
+    }
+
+    .contact-content a {
+        font-size: 1.2rem;
+    }
+
+    .contact-content a:hover {
+        color: #f0f0e6;
+    }
+
+    /* Form Styles */
+    .background {
+        padding: 4%;
+    }
+
+    .containers {
+        padding: 10px;
+        margin: auto;
+    }
+
+    .screen {
+        height: auto; /* Adjust height for smaller screen */
+    }
+
+    /* Screen Header */
+    .screen-header-left {
+        margin-right: auto;
+    }
+
+    .screen-header-button {
+        width: 6px;
+        height: 6px;
+        margin-right: 3px;
+    }
+
+    .screen-header-right {
+        display: flex;
+    }
+
+    .screen-header-ellipsis {
+        width: 3px;
+        height: 3px;
+        margin-left: 2px;
+    }
+
+    /* Form Group */
+    .app-form-group {
+        margin-bottom: 12px;
+    }
+
+    .app-form-group.message {
+        margin-top: 30px;
+    }
+
+    .app-form-button {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .app-form-button:hover {
+        color: #ea5b1d;
+    }
+
+    /* Contact Section Padding */
+    .contact-content {
+        width: 100%;
+        padding: 5%;
+    }
+
+    /* Mobile View Adjustments for Project Section */
+    .proj-1 img, .proj-2 img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .proj-1,
+    .proj-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Adjust Navigation Buttons */
+    .work-arrow-2 a {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet View (Max-width: 768px) */
+@media (max-width: 768px) {
+    html {
+        font-size: 60%;
+    }
+
+    .aboutus .aboutus-left,
+    .aboutus .aboutus-right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .aboutus-right {
+        padding: 4%;
+    }
+
+    .aboutus-right img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .contact-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact-content .mail,
+    .contact-content .links {
+        font-size: 1.1rem;
+    }
+
+    .contact-content a {
+        font-size: 1.3rem;
+    }
+
+    .contact-content a:hover {
+        color: #f0f0e6;
+    }
+
+    .screen-body {
+        padding: 20px;
+    }
+
+    .screen-body-item.left {
+        margin-bottom: 30px;
+    }
+
+    .app-title {
+        flex-direction: row;
+    }
+
+    .app-title span {
+        margin-right: 12px;
+    }
+
+    .app-title:after {
+        display: none;
+    }
+
+    .app-form-button {
+        font-size: 13px;
+        margin-left: 0;
+    }
+
+    .app-form-button:hover {
+        color: #ea5b1d;
+    }
+
+    .proj-1 img, .proj-2 img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .proj-1,
+    .proj-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .work-arrow-2 a {
+        font-size: 1.3rem;
+    }
+}
+
+/* Keep the Larger Screen Breakpoints the Same */
+@media (min-width: 769px) {
+    html {
+        font-size: 70%;
+    }
+}
+
