@@ -471,13 +471,11 @@ border-radius: 50%;
 
 .proj-1 {
     margin: 7% 0;
-    margin-top: 0;
     height: 55vh;
     width: 25%;
     border-radius: 25px;
     /* border: solid rgb(1, 114, 145) 1px; */
     align-items: center;
-    /* justify-items: center; */
     justify-items: center;
 }
 
@@ -595,7 +593,6 @@ border-radius: 50%;
 
 .proj-1 .proj1-details {
     width: 32rem;
-    margin: auto;
 }
 
 .proj-1 .proj1-details i {
@@ -616,7 +613,6 @@ border-radius: 50%;
 
 .proj-1 .proj1-details button {
     background-color: rgba(255, 255, 255, 0.3);
-
     padding: 0.5rem;
     margin-top: 0.5rem;
     width: 150px;
