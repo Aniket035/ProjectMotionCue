@@ -16,11 +16,9 @@ header {
 }
 
 body .back {
-
     height: 99vh;
     background-size: min-width(500px, 100vw);
     width: 107%;
-    /* min-width: 556px; */
     position: fixed;
 }
 
@@ -475,22 +473,17 @@ border-radius: 50%;
     width: 25%;
     border-radius: 25px;
     /* border: solid rgb(1, 114, 145) 1px; */
-    align-items: center;
-    justify-items: center;
+    /* align-items: center; */
+    justify-content: center;
+    cursor: pointer;
+    /* line-height: 1.5; */
 }
 
-.proj-1 {
-    /* box-shadow: 1px 1px 20px 6px rgb(1, 114, 145); */
-    cursor: pointer;
-    /* background-color: rgba(255, 255, 255, 0.95); */
-    /* border-radius: 8px; */
-    line-height: 1.5;
-    max-width: 50%;
-    padding: 0.5rem 0.5rem;
-}
+
 
 .proj-1 p {
-    margin-left: 5%;
+    margin-top: 10px;
+    margin-left: 7%;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -906,46 +899,18 @@ border-radius: 50%;
 /* ////......Media query......//// */
 
 @media (max-width: 500px) {
-    
     html {
         font-size: 60%;
     }
-    .navbar img{
-        margin-top: 20px;
-    }
-    .navbar .menu-items{
-        display: none;
-    }
-
-    .back{
-        max-width: 500px;
-    }
-
-    .about-me{
-        height: 950px;
-    }
-
-    .about-content{
-        flex-direction: column;
-        height: 100%;
-    }
 
     .about-content .left-content {
-        width: 350px;
+        flex-basis: 100%;
         text-align: center;
-        justify-content: center;
     }
 
     .about-content .right-content {
         flex-basis: 100%;
-        
-    
     }
-
-    .right-content .banner-video img{
-        width: 20px;
-    }
-    
 
     .skills {
         width: 100%;
@@ -998,34 +963,11 @@ border-radius: 50%;
     .contact-content {
         width: 100%;
     }
-
-    #box li{
-        display: none;
-    }
-    #box h1{
-        font-size: 10px;
-    }
-    .uses-box3 img{
-        height: 150px;
-        margin: 0;
-        width: fit-content;
-        padding-right: 0%;
-    }
-    .uses-box3{
-        display: flex;
-        padding: 0;
-        margin: 0;
-    }
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
     html {
-        font-size: 30%;
-    }
-    
-    .back{
-        margin: 0;
-        min-width: none;
+        font-size: 65%;
     }
 
     .about-content .left-content {
@@ -1038,11 +980,11 @@ border-radius: 50%;
     }
 
     .skills {
-        width: 50%;
+        width: 100%;
     }
 
     .skills-bar .bar .progress-line {
-        width: 50%;
+        width: 100%;
     }
 
     .work-arrow {
@@ -1145,16 +1087,7 @@ border-radius: 50%;
     }
 }
 
-/* *, *:before, *:after {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
-    background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-    font-size: 12px;
-  } */
+
 
 button,
 input {
@@ -1166,7 +1099,6 @@ input {
 .background {
     display: flex;
     padding: 7%;
-    /* min-height: 100vh; */
 }
 
 .containers {
@@ -1195,15 +1127,7 @@ input {
     z-index: -1;
 }
 
-/* .screen-header {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background: #4d4d4f;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-   */
+
 .screen-header-left {
     margin-right: auto;
 }
@@ -1217,17 +1141,6 @@ input {
     background: white;
 }
 
-/* .screen-header-button.close {
-    background: #ed1c6f;
-  }
-  
-  .screen-header-button.maximize {
-    background: #e8e925;
-  }
-  
-  .screen-header-button.minimize {
-    background: #74c54f;
-  } */
 
 .screen-header-right {
     display: flex;
@@ -1359,8 +1272,4 @@ input {
     .screen-body-item {
         padding: 0;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    /* CSS rules for screens smaller than 768px (typically mobile devices) */
 }
